@@ -5,9 +5,13 @@ import Product from "./Product";
 const Order = () => {
     return (
         <div>
-            <h1 className={"order__title"}>ORDER FOR FREE DELIVERY</h1>
-            {/* Product ID, title, price, rating, image */}
-            {/*  Product */}
+            <div className={"gif__container"}>
+                <img className={"app__order__gif"}
+                     src={require("./img/real_final_gif.gif")}
+                     alt={"Logo gif"}/>
+            </div>
+            <h1 className={"order__title"}>Welcome to the Super Slice Ordering App!</h1>
+            <h4 className={"order__footer"}>Please Order from the Options Below:</h4>
             <div className="product__row">
                 <Product
                     id={1}
@@ -79,6 +83,7 @@ const Order = () => {
                     image={require("./img/pizza_img/seasonal.jpeg")}/>
             </div>
             <h4 className={"order__footer"}>MINIMUM ORDER: 25 PLN</h4>
+            <h1 className={"order__title"}>FREE DELIVERY</h1>
         </div>
     );
 };
