@@ -11,63 +11,74 @@ const Order = () => {
             <div className="product__row">
                 <Product
                     id={1}
-                    title={'"Classic" Margarita SLICE'}
+                    title={'"Classic" Margarita'}
+                    kind={"SLICE"}
                     price={10}
                     image={require("./img/pizza_img/margarita.jpg")}/>
                 <Product
                     id={2}
-                    title={'"Classic" Margarita FULL PIE'}
+                    title={'"Classic" Margarita'}
+                    kind={"FULL PIE (60CM)"}
                     price={40}
                     image={require("./img/pizza_img/margarita.jpg")}/>
             </div>
             <div className="product__row">
                 <Product
                     id={3}
-                    title={'"Classic" Pepperoni SLICE'}
+                    title={'"Classic" Pepperoni'}
+                    kind={"SLICE"}
                     price={12}
                     image={require("./img/pizza_img/pepperoni.jpeg")}/>
                 <Product
                     id={4}
-                    title={'"Classic" Pepperoni FULL PIE'}
+                    title={'"Classic" Pepperoni'}
+                    kind={"FULL PIE (60CM)"}
                     price={44}
                     image={require("./img/pizza_img/pepperoni.jpeg")}/>
             </div>
             <div className="product__row">
                 <Product
                     id={1}
-                    title={'Chicago Style SLICE'}
+                    title={'Chicago Style'}
+                    kind={"SLICE"}
                     price={14}
                     image={require("./img/pizza_img/chicago_style.jpeg")}/>
                 <Product
                     id={2}
-                    title={'Chicago Style FULL PIE'}
+                    title={'Chicago Style'}
+                    kind={"FULL PIE (60CM)"}
                     price={48}
                     image={require("./img/pizza_img/chicago_style.jpeg")}/>
             </div>
             <div className="product__row">
                 <Product
                     id={1}
-                    title={'Vegan SLICE'}
+                    title={'Vegan'}
+                    kind={"SLICE"}
                     price={16}
                     image={require("./img/pizza_img/vegan.jpeg")}/>
                 <Product
                     id={2}
-                    title={'Vegan FULL PIE'}
+                    title={'Vegan'}
+                    kind={"FULL PIE (60CM)"}
                     price={52}
                     image={require("./img/pizza_img/vegan.jpeg")}/>
             </div>
             <div className="product__row">
                 <Product
                     id={1}
-                    title={'Seasonal SLICE'}
+                    title={'Seasonal'}
+                    kind={"SLICE"}
                     price={16}
                     image={require("./img/pizza_img/seasonal.jpeg")}/>
                 <Product
                     id={2}
-                    title={'Seasonal FULL PIE'}
+                    title={'Seasonal'}
+                    kind={"FULL PIE (60CM)"}
                     price={52}
                     image={require("./img/pizza_img/seasonal.jpeg")}/>
             </div>
+            <h4 className={"order__footer"}>MINIMUM ORDER: 25 PLN</h4>
         </div>
     );
 };
