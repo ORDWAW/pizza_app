@@ -1,0 +1,8 @@
+.contact__container {
+    display: flex;
+    justify-content: center;
+}
+
+.app__contact__card {
+    height: calc(100vh - 95px);
+}

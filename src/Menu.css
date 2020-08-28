@@ -1,0 +1,11 @@
+.gif__menu__container {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app__menu__gif {
+    height: calc(100vh - 95px);
+}
