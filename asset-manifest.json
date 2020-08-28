@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/pizza_app/static/css/main.5026615a.chunk.css",
+    "main.js": "/pizza_app/static/js/main.ac138b78.chunk.js",
+    "main.js.map": "/pizza_app/static/js/main.ac138b78.chunk.js.map",
+    "runtime-main.js": "/pizza_app/static/js/runtime-main.4f76949f.js",
+    "runtime-main.js.map": "/pizza_app/static/js/runtime-main.4f76949f.js.map",
+    "static/js/2.9f6f5e50.chunk.js": "/pizza_app/static/js/2.9f6f5e50.chunk.js",
+    "static/js/2.9f6f5e50.chunk.js.map": "/pizza_app/static/js/2.9f6f5e50.chunk.js.map",
+    "index.html": "/pizza_app/index.html",
+    "precache-manifest.f7ea1633148a0e277a591cfa15e6c2ba.js": "/pizza_app/precache-manifest.f7ea1633148a0e277a591cfa15e6c2ba.js",
+    "service-worker.js": "/pizza_app/service-worker.js",
+    "static/css/main.5026615a.chunk.css.map": "/pizza_app/static/css/main.5026615a.chunk.css.map",
+    "static/js/2.9f6f5e50.chunk.js.LICENSE.txt": "/pizza_app/static/js/2.9f6f5e50.chunk.js.LICENSE.txt",
+    "static/media/chicago_style.jpeg": "/pizza_app/static/media/chicago_style.42952343.jpeg",
+    "static/media/final_contact_gif.gif": "/pizza_app/static/media/final_contact_gif.0b6ad0f8.gif",
+    "static/media/just_text_logo.png": "/pizza_app/static/media/just_text_logo.64959250.png",
+    "static/media/margarita.jpg": "/pizza_app/static/media/margarita.bde3b313.jpg",
+    "static/media/menu_gif.gif": "/pizza_app/static/media/menu_gif.6d9f4aa6.gif",
+    "static/media/pepperoni.jpeg": "/pizza_app/static/media/pepperoni.e85c11c5.jpeg",
+    "static/media/real_final_gif.gif": "/pizza_app/static/media/real_final_gif.daab15a2.gif",
+    "static/media/seasonal.jpeg": "/pizza_app/static/media/seasonal.f45f8765.jpeg",
+    "static/media/vegan.jpeg": "/pizza_app/static/media/vegan.2e092e64.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f76949f.js",
+    "static/js/2.9f6f5e50.chunk.js",
+    "static/css/main.5026615a.chunk.css",
+    "static/js/main.ac138b78.chunk.js"
+  ]
+}
